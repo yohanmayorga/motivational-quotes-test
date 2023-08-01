@@ -1,4 +1,4 @@
-let frases = [
+let quotes = [
   "The only way to do great work is to love what you do.",
   "If you can dream it, you can do it.",
   "The only person you are destined to become is the person you decide to be.",
@@ -27,9 +27,9 @@ let frases = [
   "Be fearless.",
   "Be unstoppable."];
 
-function mostrarFrase() {
-    let fraseAleatoria = frases[parseInt(Math.random() * frases.length)];
-    document.getElementById("mensaje").innerHTML = fraseAleatoria;
+function showQuote() {
+    let randomQuote = quotes[parseInt(Math.random() * quotes.length)];
+    document.getElementById("message").innerHTML = randomQuote;
 };
 
-document.getElementById("boton").addEventListener("click", mostrarFrase);
+document.getElementById("btn").addEventListener("click", showQuote);
