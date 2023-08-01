@@ -1,0 +1,25 @@
+.mainbox {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(9, 94, 121, 1) 50%, rgba(8, 138, 164, 1) 100%);
+    width: 400px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+}
+
+#mensaje {
+    color: white;
+    text-align: center
+}
+
+button {
+    border-radius: 30px;
+}
